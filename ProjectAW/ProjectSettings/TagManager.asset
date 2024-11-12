@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - World
   - NoMask
+  - DamageZone
+  - SafeZone
   layers:
   - Default
   - TransparentFX
