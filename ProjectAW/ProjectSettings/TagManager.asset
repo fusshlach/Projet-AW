@@ -11,6 +11,7 @@ TagManager:
   - NoMask
   - DamageZone
   - SafeZone
+  - Door
   layers:
   - Default
   - TransparentFX

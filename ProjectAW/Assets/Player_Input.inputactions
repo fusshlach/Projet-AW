@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Door Opening Key",
+                    "type": "Button",
+                    "id": "523ad97f-238f-455f-9730-a8716b5bf098",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -174,6 +183,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c3cac41-6a09-4f5d-9dd5-462c413f0139",
+                    "path": "e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Door Opening Key",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

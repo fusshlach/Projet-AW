@@ -41,7 +41,7 @@ public class LetsMove : MonoBehaviour
 
     private void GroundMovement()
     {
-        Vector3 move = new Vector3(turnInput, 0, moveInput);
+        Vector3 move = new Vector3(turnInput, moveInput, 0);
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
@@ -52,7 +52,7 @@ public class LetsMove : MonoBehaviour
             speed = Mathf.Lerp(speed, walkSpeed, sprintTransitSpeed * Time.deltaTime);
         }
 
-        move.y = 0; 
+        move.z = 0; 
         move*= speed;
 
         controller.Move(move *Time.deltaTime);
